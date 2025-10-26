@@ -1,0 +1,396 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class AdminCreateCourseModal
+
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()>
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()>
+    Private Sub InitializeComponent()
+        Panel2 = New Panel()
+        Label8 = New Label()
+        Label7 = New Label()
+        Label6 = New Label()
+        Label5 = New Label()
+        Label4 = New Label()
+        Label3 = New Label()
+        Label2 = New Label()
+        Label1 = New Label()
+        PictureBox1 = New PictureBox()
+        Label9 = New Label()
+        txt_lastname = New TextBox()
+        Label72 = New Label()
+        Units = New Label()
+        txt_units = New TextBox()
+        Label70 = New Label()
+        txt_time = New TextBox()
+        Label68 = New Label()
+        txt_coursename = New TextBox()
+        D = New Label()
+        txt_days = New TextBox()
+        Label66 = New Label()
+        txt_room = New TextBox()
+        Label65 = New Label()
+        txt_description = New TextBox()
+        txt_codenumber = New TextBox()
+        Panel6 = New Panel()
+        btn_create_course = New Button()
+        Panel2.SuspendLayout()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        Panel6.SuspendLayout()
+        SuspendLayout()
+        ' 
+        ' Panel2
+        ' 
+        Panel2.BackColor = Color.Gainsboro
+        Panel2.Controls.Add(Label8)
+        Panel2.Controls.Add(Label7)
+        Panel2.Controls.Add(Label6)
+        Panel2.Controls.Add(Label5)
+        Panel2.Controls.Add(Label4)
+        Panel2.Controls.Add(Label3)
+        Panel2.Controls.Add(Label2)
+        Panel2.Controls.Add(Label1)
+        Panel2.Controls.Add(PictureBox1)
+        Panel2.Location = New Point(0, -1)
+        Panel2.Name = "Panel2"
+        Panel2.Size = New Size(200, 1035)
+        Panel2.TabIndex = 1
+        ' 
+        ' Label8
+        ' 
+        Label8.AutoSize = True
+        Label8.Font = New Font("Times New Roman", 10.8F)
+        Label8.Location = New Point(12, 546)
+        Label8.Name = "Label8"
+        Label8.Size = New Size(60, 20)
+        Label8.TabIndex = 8
+        Label8.Text = "Logout"
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.Font = New Font("Times New Roman", 10.8F)
+        Label7.Location = New Point(12, 490)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(119, 20)
+        Label7.TabIndex = 7
+        Label7.Text = "Manage Profile"
+        ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.Font = New Font("Times New Roman", 10.8F)
+        Label6.Location = New Point(12, 435)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(127, 20)
+        Label6.TabIndex = 6
+        Label6.Text = "Manage Reports"
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Font = New Font("Times New Roman", 10.8F)
+        Label5.Location = New Point(12, 382)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(95, 20)
+        Label5.TabIndex = 5
+        Label5.Text = "Manage Bill"
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.Font = New Font("Times New Roman", 10.8F)
+        Label4.Location = New Point(12, 323)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(129, 20)
+        Label4.TabIndex = 4
+        Label4.Text = "Manage Courses"
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Font = New Font("Times New Roman", 10.8F)
+        Label3.Location = New Point(12, 272)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(113, 20)
+        Label3.TabIndex = 3
+        Label3.Text = "Manage Staffs"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Font = New Font("Times New Roman", 10.8F)
+        Label2.Location = New Point(12, 215)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(133, 20)
+        Label2.TabIndex = 2
+        Label2.Text = "Manage Students"
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Font = New Font("Times New Roman", 10.8F)
+        Label1.Location = New Point(12, 163)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(87, 20)
+        Label1.TabIndex = 1
+        Label1.Text = "Dashboard"
+        ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.BackColor = Color.Transparent
+        PictureBox1.BackgroundImage = My.Resources.Resources.logo
+        PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
+        PictureBox1.Location = New Point(3, 0)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(194, 127)
+        PictureBox1.TabIndex = 0
+        PictureBox1.TabStop = False
+        ' 
+        ' Label9
+        ' 
+        Label9.AutoSize = True
+        Label9.Font = New Font("Times New Roman", 24.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label9.Location = New Point(222, 36)
+        Label9.Name = "Label9"
+        Label9.Size = New Size(338, 46)
+        Label9.TabIndex = 10
+        Label9.Text = "CREATE COURSE"
+        ' 
+        ' txt_lastname
+        ' 
+        txt_lastname.Location = New Point(0, 0)
+        txt_lastname.Name = "txt_lastname"
+        txt_lastname.Size = New Size(100, 27)
+        txt_lastname.TabIndex = 0
+        ' 
+        ' Label72
+        ' 
+        Label72.AutoSize = True
+        Label72.Font = New Font("Times New Roman", 10.8F)
+        Label72.Location = New Point(34, 26)
+        Label72.Name = "Label72"
+        Label72.Size = New Size(106, 20)
+        Label72.TabIndex = 9
+        Label72.Text = "CodeNumber"
+        ' 
+        ' Units
+        ' 
+        Units.AutoSize = True
+        Units.Font = New Font("Times New Roman", 10.8F)
+        Units.Location = New Point(334, 26)
+        Units.Name = "Units"
+        Units.Size = New Size(47, 20)
+        Units.TabIndex = 11
+        Units.Text = "Units"
+        ' 
+        ' txt_units
+        ' 
+        txt_units.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txt_units.Location = New Point(408, 18)
+        txt_units.Name = "txt_units"
+        txt_units.Size = New Size(173, 28)
+        txt_units.TabIndex = 12
+        ' 
+        ' Label70
+        ' 
+        Label70.AutoSize = True
+        Label70.Font = New Font("Times New Roman", 10.8F)
+        Label70.Location = New Point(623, 26)
+        Label70.Name = "Label70"
+        Label70.Size = New Size(46, 20)
+        Label70.TabIndex = 13
+        Label70.Text = "Time"
+        ' 
+        ' txt_time
+        ' 
+        txt_time.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txt_time.Location = New Point(716, 18)
+        txt_time.Name = "txt_time"
+        txt_time.Size = New Size(173, 28)
+        txt_time.TabIndex = 14
+        ' 
+        ' Label68
+        ' 
+        Label68.AutoSize = True
+        Label68.Font = New Font("Times New Roman", 10.8F)
+        Label68.Location = New Point(34, 86)
+        Label68.Name = "Label68"
+        Label68.Size = New Size(103, 20)
+        Label68.TabIndex = 17
+        Label68.Text = "CourseName"
+        ' 
+        ' txt_coursename
+        ' 
+        txt_coursename.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txt_coursename.Location = New Point(143, 78)
+        txt_coursename.Name = "txt_coursename"
+        txt_coursename.Size = New Size(173, 28)
+        txt_coursename.TabIndex = 18
+        ' 
+        ' D
+        ' 
+        D.AutoSize = True
+        D.Font = New Font("Times New Roman", 10.8F)
+        D.Location = New Point(335, 86)
+        D.Name = "D"
+        D.Size = New Size(46, 20)
+        D.TabIndex = 19
+        D.Text = "Days"
+        ' 
+        ' txt_days
+        ' 
+        txt_days.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txt_days.Location = New Point(408, 78)
+        txt_days.Name = "txt_days"
+        txt_days.Size = New Size(173, 28)
+        txt_days.TabIndex = 20
+        ' 
+        ' Label66
+        ' 
+        Label66.AutoSize = True
+        Label66.Font = New Font("Times New Roman", 10.8F)
+        Label66.Location = New Point(623, 81)
+        Label66.Name = "Label66"
+        Label66.Size = New Size(53, 20)
+        Label66.TabIndex = 21
+        Label66.Text = "Room"
+        ' 
+        ' txt_room
+        ' 
+        txt_room.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txt_room.Location = New Point(716, 78)
+        txt_room.Name = "txt_room"
+        txt_room.Size = New Size(193, 28)
+        txt_room.TabIndex = 22
+        ' 
+        ' Label65
+        ' 
+        Label65.AutoSize = True
+        Label65.Font = New Font("Times New Roman", 10.8F)
+        Label65.Location = New Point(931, 26)
+        Label65.Name = "Label65"
+        Label65.Size = New Size(91, 20)
+        Label65.TabIndex = 23
+        Label65.Text = "Description"
+        ' 
+        ' txt_description
+        ' 
+        txt_description.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txt_description.Location = New Point(1034, 20)
+        txt_description.Name = "txt_description"
+        txt_description.Size = New Size(168, 28)
+        txt_description.TabIndex = 24
+        ' 
+        ' txt_codenumber
+        ' 
+        txt_codenumber.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txt_codenumber.Location = New Point(143, 23)
+        txt_codenumber.Name = "txt_codenumber"
+        txt_codenumber.Size = New Size(173, 28)
+        txt_codenumber.TabIndex = 179
+        ' 
+        ' Panel6
+        ' 
+        Panel6.BorderStyle = BorderStyle.Fixed3D
+        Panel6.Controls.Add(txt_codenumber)
+        Panel6.Controls.Add(txt_description)
+        Panel6.Controls.Add(Label65)
+        Panel6.Controls.Add(txt_room)
+        Panel6.Controls.Add(Label66)
+        Panel6.Controls.Add(txt_days)
+        Panel6.Controls.Add(D)
+        Panel6.Controls.Add(txt_coursename)
+        Panel6.Controls.Add(Label68)
+        Panel6.Controls.Add(txt_time)
+        Panel6.Controls.Add(Label70)
+        Panel6.Controls.Add(txt_units)
+        Panel6.Controls.Add(Units)
+        Panel6.Controls.Add(Label72)
+        Panel6.Location = New Point(222, 103)
+        Panel6.Name = "Panel6"
+        Panel6.Size = New Size(1527, 1094)
+        Panel6.TabIndex = 37
+        ' 
+        ' btn_create_course
+        ' 
+        btn_create_course.BackColor = Color.Green
+        btn_create_course.ForeColor = Color.White
+        btn_create_course.Location = New Point(1608, 62)
+        btn_create_course.Name = "btn_create_course"
+        btn_create_course.Size = New Size(141, 35)
+        btn_create_course.TabIndex = 7
+        btn_create_course.Text = "CREATE COURSE"
+        btn_create_course.UseVisualStyleBackColor = False
+        ' 
+        ' AdminCreateCourseModal
+        ' 
+        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(1902, 940)
+        Controls.Add(Panel6)
+        Controls.Add(Label9)
+        Controls.Add(Panel2)
+        Controls.Add(btn_create_course)
+        MaximizeBox = False
+        Name = "AdminCreateCourseModal"
+        StartPosition = FormStartPosition.CenterScreen
+        Text = "AdminCreateCourseModal"
+        WindowState = FormWindowState.Maximized
+        Panel2.ResumeLayout(False)
+        Panel2.PerformLayout()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        Panel6.ResumeLayout(False)
+        Panel6.PerformLayout()
+        ResumeLayout(False)
+        PerformLayout()
+    End Sub
+
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label9 As Label
+    Friend WithEvents txt_lastname As TextBox
+    Friend WithEvents Label72 As Label
+    Friend WithEvents Units As Label
+    Friend WithEvents txt_units As TextBox
+    Friend WithEvents Label70 As Label
+    Friend WithEvents txt_time As TextBox
+    Friend WithEvents Label69 As Label
+    Friend WithEvents dtp_dob As DateTimePicker
+    Friend WithEvents Label68 As Label
+    Friend WithEvents txt_coursename As TextBox
+    Friend WithEvents D As Label
+    Friend WithEvents txt_days As TextBox
+    Friend WithEvents Label66 As Label
+    Friend WithEvents txt_room As TextBox
+    Friend WithEvents Label65 As Label
+    Friend WithEvents txt_description As TextBox
+    Friend WithEvents txt_codenumber As TextBox
+    Friend WithEvents Panel6 As Panel
+    Friend WithEvents btn_create_course As Button
+End Class
