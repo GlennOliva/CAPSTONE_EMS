@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class AdminEditStudentModal
+Partial Class StaffCreateStudentModal
 
     Inherits System.Windows.Forms.Form
 
@@ -26,10 +26,6 @@ Partial Class AdminEditStudentModal
         Panel2 = New Panel()
         Label8 = New Label()
         Label7 = New Label()
-        Label6 = New Label()
-        Label5 = New Label()
-        Label4 = New Label()
-        Label3 = New Label()
         Label2 = New Label()
         Label1 = New Label()
         PictureBox1 = New PictureBox()
@@ -168,7 +164,7 @@ Partial Class AdminEditStudentModal
         d = New Label()
         txt_entrance = New TextBox()
         Label28 = New Label()
-        btn_edit_student = New Button()
+        btn_create_student = New Button()
         Panel2.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         Panel6.SuspendLayout()
@@ -179,10 +175,6 @@ Partial Class AdminEditStudentModal
         Panel2.BackColor = Color.FromArgb(CByte(255), CByte(128), CByte(0))
         Panel2.Controls.Add(Label8)
         Panel2.Controls.Add(Label7)
-        Panel2.Controls.Add(Label6)
-        Panel2.Controls.Add(Label5)
-        Panel2.Controls.Add(Label4)
-        Panel2.Controls.Add(Label3)
         Panel2.Controls.Add(Label2)
         Panel2.Controls.Add(Label1)
         Panel2.Controls.Add(PictureBox1)
@@ -195,7 +187,7 @@ Partial Class AdminEditStudentModal
         ' 
         Label8.AutoSize = True
         Label8.Font = New Font("Times New Roman", 10.8F)
-        Label8.Location = New Point(12, 546)
+        Label8.Location = New Point(12, 323)
         Label8.Name = "Label8"
         Label8.Size = New Size(60, 20)
         Label8.TabIndex = 8
@@ -205,51 +197,11 @@ Partial Class AdminEditStudentModal
         ' 
         Label7.AutoSize = True
         Label7.Font = New Font("Times New Roman", 10.8F)
-        Label7.Location = New Point(12, 490)
+        Label7.Location = New Point(12, 267)
         Label7.Name = "Label7"
         Label7.Size = New Size(119, 20)
         Label7.TabIndex = 7
         Label7.Text = "Manage Profile"
-        ' 
-        ' Label6
-        ' 
-        Label6.AutoSize = True
-        Label6.Font = New Font("Times New Roman", 10.8F)
-        Label6.Location = New Point(12, 435)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(127, 20)
-        Label6.TabIndex = 6
-        Label6.Text = "Manage Reports"
-        ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.Font = New Font("Times New Roman", 10.8F)
-        Label5.Location = New Point(12, 382)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(95, 20)
-        Label5.TabIndex = 5
-        Label5.Text = "Manage Bill"
-        ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Times New Roman", 10.8F)
-        Label4.Location = New Point(12, 323)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(129, 20)
-        Label4.TabIndex = 4
-        Label4.Text = "Manage Courses"
-        ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.Font = New Font("Times New Roman", 10.8F)
-        Label3.Location = New Point(12, 272)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(113, 20)
-        Label3.TabIndex = 3
-        Label3.Text = "Manage Staffs"
         ' 
         ' Label2
         ' 
@@ -285,12 +237,12 @@ Partial Class AdminEditStudentModal
         ' Label9
         ' 
         Label9.AutoSize = True
-        Label9.Font = New Font("Times New Roman", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label9.Font = New Font("Times New Roman", 24.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label9.Location = New Point(278, 54)
         Label9.Name = "Label9"
-        Label9.Size = New Size(319, 46)
+        Label9.Size = New Size(381, 46)
         Label9.TabIndex = 10
-        Label9.Text = "EDIT STUDENTS"
+        Label9.Text = "CREATE STUDENTS"
         ' 
         ' txt_lastname
         ' 
@@ -1628,31 +1580,31 @@ Partial Class AdminEditStudentModal
         Label28.TabIndex = 201
         Label28.Text = "Entrance"
         ' 
-        ' btn_edit_student
+        ' btn_create_student
         ' 
-        btn_edit_student.BackColor = Color.Green
-        btn_edit_student.ForeColor = Color.White
-        btn_edit_student.Location = New Point(1599, 65)
-        btn_edit_student.Name = "btn_edit_student"
-        btn_edit_student.Size = New Size(141, 35)
-        btn_edit_student.TabIndex = 7
-        btn_edit_student.Text = "EDIT STUDENT"
-        btn_edit_student.UseVisualStyleBackColor = False
+        btn_create_student.BackColor = Color.Green
+        btn_create_student.ForeColor = Color.White
+        btn_create_student.Location = New Point(1608, 62)
+        btn_create_student.Name = "btn_create_student"
+        btn_create_student.Size = New Size(141, 35)
+        btn_create_student.TabIndex = 7
+        btn_create_student.Text = "CREATE STUDENT"
+        btn_create_student.UseVisualStyleBackColor = False
         ' 
-        ' AdminEditStudentModal
+        ' StaffCreateStudentModal
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
         ClientSize = New Size(1902, 940)
         Controls.Add(Panel6)
         Controls.Add(Label9)
         Controls.Add(Panel2)
-        Controls.Add(btn_edit_student)
+        Controls.Add(btn_create_student)
         MaximizeBox = False
-        Name = "AdminEditStudentModal"
+        Name = "StaffCreateStudentModal"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "AdminEditStudentModal"
+        Text = "StaffCreateStudentModal"
         WindowState = FormWindowState.Maximized
         Panel2.ResumeLayout(False)
         Panel2.PerformLayout()
@@ -1666,10 +1618,6 @@ Partial Class AdminEditStudentModal
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
@@ -1800,7 +1748,7 @@ Partial Class AdminEditStudentModal
     Friend WithEvents d As Label
     Friend WithEvents txt_entrance As TextBox
     Friend WithEvents Label28 As Label
-    Friend WithEvents btn_edit_student As Button
+    Friend WithEvents btn_create_student As Button
     Friend WithEvents txt_total As TextBox
     Friend WithEvents Label23 As Label
     Friend WithEvents txt_other As TextBox

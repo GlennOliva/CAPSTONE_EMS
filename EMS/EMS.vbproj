@@ -20,6 +20,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="StaffEditStudentModal.vb" />
+    <Compile Update="StaffCreateStudentModal.vb" />
+    <Compile Update="StaffStudent.vb" />
+    <Compile Update="StaffEditProfileModal.vb" />
+    <Compile Update="StaffDashboard.vb" />
     <Compile Update="AdminEditProfileModal.vb" />
     <Compile Update="AdminReports.vb" />
     <Compile Update="AdminBill.vb" />

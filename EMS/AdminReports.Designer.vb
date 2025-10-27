@@ -45,7 +45,7 @@ Partial Class AdminReports
         ' 
         ' Panel2
         ' 
-        Panel2.BackColor = Color.Gainsboro
+        Panel2.BackColor = Color.FromArgb(CByte(255), CByte(128), CByte(0))
         Panel2.Controls.Add(Label8)
         Panel2.Controls.Add(Label7)
         Panel2.Controls.Add(Label6)
@@ -181,7 +181,7 @@ Partial Class AdminReports
         ' Label9
         ' 
         Label9.AutoSize = True
-        Label9.Font = New Font("Times New Roman", 24.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label9.Font = New Font("Times New Roman", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label9.Location = New Point(233, 66)
         Label9.Name = "Label9"
         Label9.Size = New Size(377, 46)
@@ -201,8 +201,9 @@ Partial Class AdminReports
         ' 
         ' AdminReports
         ' 
-        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.White
         ClientSize = New Size(1902, 940)
         Controls.Add(btn_export)
         Controls.Add(Label9)

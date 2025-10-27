@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class AdminCreateStaffModal
+Partial Class StaffEditProfileModal
 
     Inherits System.Windows.Forms.Form
 
@@ -26,10 +26,6 @@ Partial Class AdminCreateStaffModal
         Panel2 = New Panel()
         Label8 = New Label()
         Label7 = New Label()
-        Label6 = New Label()
-        Label5 = New Label()
-        Label4 = New Label()
-        Label3 = New Label()
         Label2 = New Label()
         Label1 = New Label()
         PictureBox1 = New PictureBox()
@@ -39,22 +35,22 @@ Partial Class AdminCreateStaffModal
         Label71 = New Label()
         txt_firstname = New TextBox()
         Label70 = New Label()
-        txt_position = New TextBox()
-        Label68 = New Label()
-        txt_username = New TextBox()
-        Label67 = New Label()
-        txt_password = New TextBox()
-        Label66 = New Label()
         txt_email = New TextBox()
-        Label65 = New Label()
+        Label68 = New Label()
+        txt_password = New TextBox()
+        Label67 = New Label()
+        txt_last = New TextBox()
+        Label66 = New Label()
         txt_contact = New TextBox()
-        txt_surname = New TextBox()
-        txt_sex = New TextBox()
-        Label10 = New Label()
+        txt_username = New TextBox()
         Panel6 = New Panel()
+        txt_position = New TextBox()
         txt_address = New TextBox()
+        Label10 = New Label()
+        txt_sex = New TextBox()
         Label11 = New Label()
-        btn_create_staff = New Button()
+        Label12 = New Label()
+        btn_edit_profile = New Button()
         Panel2.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         Panel6.SuspendLayout()
@@ -65,10 +61,6 @@ Partial Class AdminCreateStaffModal
         Panel2.BackColor = Color.FromArgb(CByte(255), CByte(128), CByte(0))
         Panel2.Controls.Add(Label8)
         Panel2.Controls.Add(Label7)
-        Panel2.Controls.Add(Label6)
-        Panel2.Controls.Add(Label5)
-        Panel2.Controls.Add(Label4)
-        Panel2.Controls.Add(Label3)
         Panel2.Controls.Add(Label2)
         Panel2.Controls.Add(Label1)
         Panel2.Controls.Add(PictureBox1)
@@ -81,7 +73,7 @@ Partial Class AdminCreateStaffModal
         ' 
         Label8.AutoSize = True
         Label8.Font = New Font("Times New Roman", 10.8F)
-        Label8.Location = New Point(12, 546)
+        Label8.Location = New Point(12, 324)
         Label8.Name = "Label8"
         Label8.Size = New Size(60, 20)
         Label8.TabIndex = 8
@@ -91,51 +83,11 @@ Partial Class AdminCreateStaffModal
         ' 
         Label7.AutoSize = True
         Label7.Font = New Font("Times New Roman", 10.8F)
-        Label7.Location = New Point(12, 490)
+        Label7.Location = New Point(12, 268)
         Label7.Name = "Label7"
         Label7.Size = New Size(119, 20)
         Label7.TabIndex = 7
         Label7.Text = "Manage Profile"
-        ' 
-        ' Label6
-        ' 
-        Label6.AutoSize = True
-        Label6.Font = New Font("Times New Roman", 10.8F)
-        Label6.Location = New Point(12, 435)
-        Label6.Name = "Label6"
-        Label6.Size = New Size(127, 20)
-        Label6.TabIndex = 6
-        Label6.Text = "Manage Reports"
-        ' 
-        ' Label5
-        ' 
-        Label5.AutoSize = True
-        Label5.Font = New Font("Times New Roman", 10.8F)
-        Label5.Location = New Point(12, 382)
-        Label5.Name = "Label5"
-        Label5.Size = New Size(95, 20)
-        Label5.TabIndex = 5
-        Label5.Text = "Manage Bill"
-        ' 
-        ' Label4
-        ' 
-        Label4.AutoSize = True
-        Label4.Font = New Font("Times New Roman", 10.8F)
-        Label4.Location = New Point(12, 323)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(129, 20)
-        Label4.TabIndex = 4
-        Label4.Text = "Manage Courses"
-        ' 
-        ' Label3
-        ' 
-        Label3.AutoSize = True
-        Label3.Font = New Font("Times New Roman", 10.8F)
-        Label3.Location = New Point(12, 272)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(113, 20)
-        Label3.TabIndex = 3
-        Label3.Text = "Manage Staffs"
         ' 
         ' Label2
         ' 
@@ -171,12 +123,12 @@ Partial Class AdminCreateStaffModal
         ' Label9
         ' 
         Label9.AutoSize = True
-        Label9.Font = New Font("Times New Roman", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label9.Location = New Point(278, 54)
+        Label9.Font = New Font("Times New Roman", 24.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label9.Location = New Point(222, 49)
         Label9.Name = "Label9"
-        Label9.Size = New Size(295, 46)
+        Label9.Size = New Size(278, 46)
         Label9.TabIndex = 10
-        Label9.Text = "CREATE STAFF"
+        Label9.Text = "EDIT PROFILE"
         ' 
         ' txt_lastname
         ' 
@@ -191,15 +143,15 @@ Partial Class AdminCreateStaffModal
         Label72.Font = New Font("Times New Roman", 10.8F)
         Label72.Location = New Point(34, 26)
         Label72.Name = "Label72"
-        Label72.Size = New Size(73, 20)
+        Label72.Size = New Size(82, 20)
         Label72.TabIndex = 9
-        Label72.Text = "Surname"
+        Label72.Text = "Username"
         ' 
         ' Label71
         ' 
         Label71.AutoSize = True
         Label71.Font = New Font("Times New Roman", 10.8F)
-        Label71.Location = New Point(322, 26)
+        Label71.Location = New Point(332, 26)
         Label71.Name = "Label71"
         Label71.Size = New Size(80, 20)
         Label71.TabIndex = 11
@@ -208,7 +160,7 @@ Partial Class AdminCreateStaffModal
         ' txt_firstname
         ' 
         txt_firstname.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txt_firstname.Location = New Point(408, 18)
+        txt_firstname.Location = New Point(418, 20)
         txt_firstname.Name = "txt_firstname"
         txt_firstname.Size = New Size(173, 28)
         txt_firstname.TabIndex = 12
@@ -219,17 +171,17 @@ Partial Class AdminCreateStaffModal
         Label70.Font = New Font("Times New Roman", 10.8F)
         Label70.Location = New Point(623, 26)
         Label70.Name = "Label70"
-        Label70.Size = New Size(67, 20)
+        Label70.Size = New Size(50, 20)
         Label70.TabIndex = 13
-        Label70.Text = "Position"
+        Label70.Text = "Email"
         ' 
-        ' txt_position
+        ' txt_email
         ' 
-        txt_position.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txt_position.Location = New Point(726, 18)
-        txt_position.Name = "txt_position"
-        txt_position.Size = New Size(173, 28)
-        txt_position.TabIndex = 14
+        txt_email.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txt_email.Location = New Point(716, 18)
+        txt_email.Name = "txt_email"
+        txt_email.Size = New Size(193, 28)
+        txt_email.TabIndex = 14
         ' 
         ' Label68
         ' 
@@ -237,35 +189,35 @@ Partial Class AdminCreateStaffModal
         Label68.Font = New Font("Times New Roman", 10.8F)
         Label68.Location = New Point(34, 86)
         Label68.Name = "Label68"
-        Label68.Size = New Size(82, 20)
+        Label68.Size = New Size(79, 20)
         Label68.TabIndex = 17
-        Label68.Text = "Username"
+        Label68.Text = "Password"
         ' 
-        ' txt_username
+        ' txt_password
         ' 
-        txt_username.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txt_username.Location = New Point(117, 80)
-        txt_username.Name = "txt_username"
-        txt_username.Size = New Size(173, 28)
-        txt_username.TabIndex = 18
+        txt_password.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txt_password.Location = New Point(143, 78)
+        txt_password.Name = "txt_password"
+        txt_password.Size = New Size(173, 28)
+        txt_password.TabIndex = 18
         ' 
         ' Label67
         ' 
         Label67.AutoSize = True
         Label67.Font = New Font("Times New Roman", 10.8F)
-        Label67.Location = New Point(322, 81)
+        Label67.Location = New Point(333, 81)
         Label67.Name = "Label67"
         Label67.Size = New Size(79, 20)
         Label67.TabIndex = 19
-        Label67.Text = "Password"
+        Label67.Text = "Lastname"
         ' 
-        ' txt_password
+        ' txt_last
         ' 
-        txt_password.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txt_password.Location = New Point(408, 78)
-        txt_password.Name = "txt_password"
-        txt_password.Size = New Size(173, 28)
-        txt_password.TabIndex = 20
+        txt_last.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txt_last.Location = New Point(418, 78)
+        txt_last.Name = "txt_last"
+        txt_last.Size = New Size(173, 28)
+        txt_last.TabIndex = 20
         ' 
         ' Label66
         ' 
@@ -273,79 +225,43 @@ Partial Class AdminCreateStaffModal
         Label66.Font = New Font("Times New Roman", 10.8F)
         Label66.Location = New Point(623, 81)
         Label66.Name = "Label66"
-        Label66.Size = New Size(50, 20)
+        Label66.Size = New Size(79, 20)
         Label66.TabIndex = 21
-        Label66.Text = "Email"
-        ' 
-        ' txt_email
-        ' 
-        txt_email.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txt_email.Location = New Point(716, 78)
-        txt_email.Name = "txt_email"
-        txt_email.Size = New Size(193, 28)
-        txt_email.TabIndex = 22
-        ' 
-        ' Label65
-        ' 
-        Label65.AutoSize = True
-        Label65.Font = New Font("Times New Roman", 10.8F)
-        Label65.Location = New Point(931, 26)
-        Label65.Name = "Label65"
-        Label65.Size = New Size(79, 20)
-        Label65.TabIndex = 23
-        Label65.Text = "Contact #"
+        Label66.Text = "Contact #"
         ' 
         ' txt_contact
         ' 
         txt_contact.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txt_contact.Location = New Point(1034, 20)
+        txt_contact.Location = New Point(716, 78)
         txt_contact.Name = "txt_contact"
-        txt_contact.Size = New Size(168, 28)
-        txt_contact.TabIndex = 24
+        txt_contact.Size = New Size(193, 28)
+        txt_contact.TabIndex = 22
         ' 
-        ' txt_surname
+        ' txt_username
         ' 
-        txt_surname.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txt_surname.Location = New Point(117, 26)
-        txt_surname.Name = "txt_surname"
-        txt_surname.Size = New Size(173, 28)
-        txt_surname.TabIndex = 179
-        ' 
-        ' txt_sex
-        ' 
-        txt_sex.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txt_sex.Location = New Point(1034, 83)
-        txt_sex.Name = "txt_sex"
-        txt_sex.Size = New Size(168, 28)
-        txt_sex.TabIndex = 180
-        ' 
-        ' Label10
-        ' 
-        Label10.AutoSize = True
-        Label10.Font = New Font("Times New Roman", 10.8F)
-        Label10.Location = New Point(931, 86)
-        Label10.Name = "Label10"
-        Label10.Size = New Size(35, 20)
-        Label10.TabIndex = 181
-        Label10.Text = "Sex"
+        txt_username.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txt_username.Location = New Point(143, 18)
+        txt_username.Name = "txt_username"
+        txt_username.Size = New Size(173, 28)
+        txt_username.TabIndex = 179
         ' 
         ' Panel6
         ' 
         Panel6.BorderStyle = BorderStyle.Fixed3D
+        Panel6.Controls.Add(txt_position)
         Panel6.Controls.Add(txt_address)
-        Panel6.Controls.Add(Label11)
         Panel6.Controls.Add(Label10)
         Panel6.Controls.Add(txt_sex)
-        Panel6.Controls.Add(txt_surname)
-        Panel6.Controls.Add(txt_contact)
-        Panel6.Controls.Add(Label65)
-        Panel6.Controls.Add(txt_email)
-        Panel6.Controls.Add(Label66)
-        Panel6.Controls.Add(txt_password)
-        Panel6.Controls.Add(Label67)
+        Panel6.Controls.Add(Label11)
+        Panel6.Controls.Add(Label12)
         Panel6.Controls.Add(txt_username)
+        Panel6.Controls.Add(txt_contact)
+        Panel6.Controls.Add(Label66)
+        Panel6.Controls.Add(txt_last)
+        Panel6.Controls.Add(Label67)
+        Panel6.Controls.Add(txt_password)
         Panel6.Controls.Add(Label68)
-        Panel6.Controls.Add(txt_position)
+        Panel6.Controls.Add(txt_email)
         Panel6.Controls.Add(Label70)
         Panel6.Controls.Add(txt_firstname)
         Panel6.Controls.Add(Label71)
@@ -355,49 +271,85 @@ Partial Class AdminCreateStaffModal
         Panel6.Size = New Size(1527, 1094)
         Panel6.TabIndex = 37
         ' 
+        ' txt_position
+        ' 
+        txt_position.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txt_position.Location = New Point(1039, 18)
+        txt_position.Name = "txt_position"
+        txt_position.Size = New Size(173, 28)
+        txt_position.TabIndex = 185
+        ' 
         ' txt_address
         ' 
         txt_address.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        txt_address.Location = New Point(1320, 23)
+        txt_address.Location = New Point(1039, 78)
         txt_address.Name = "txt_address"
         txt_address.Size = New Size(173, 28)
-        txt_address.TabIndex = 183
+        txt_address.TabIndex = 184
+        ' 
+        ' Label10
+        ' 
+        Label10.AutoSize = True
+        Label10.Font = New Font("Times New Roman", 10.8F)
+        Label10.Location = New Point(930, 86)
+        Label10.Name = "Label10"
+        Label10.Size = New Size(67, 20)
+        Label10.TabIndex = 183
+        Label10.Text = "Address"
+        ' 
+        ' txt_sex
+        ' 
+        txt_sex.Font = New Font("Times New Roman", 10.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txt_sex.Location = New Point(1282, 20)
+        txt_sex.Name = "txt_sex"
+        txt_sex.Size = New Size(173, 28)
+        txt_sex.TabIndex = 182
         ' 
         ' Label11
         ' 
         Label11.AutoSize = True
         Label11.Font = New Font("Times New Roman", 10.8F)
-        Label11.Location = New Point(1241, 26)
+        Label11.Location = New Point(1228, 26)
         Label11.Name = "Label11"
-        Label11.Size = New Size(67, 20)
-        Label11.TabIndex = 182
-        Label11.Text = "Address"
+        Label11.Size = New Size(35, 20)
+        Label11.TabIndex = 181
+        Label11.Text = "Sex"
         ' 
-        ' btn_create_staff
+        ' Label12
         ' 
-        btn_create_staff.BackColor = Color.Green
-        btn_create_staff.ForeColor = Color.White
-        btn_create_staff.Location = New Point(1608, 62)
-        btn_create_staff.Name = "btn_create_staff"
-        btn_create_staff.Size = New Size(141, 35)
-        btn_create_staff.TabIndex = 7
-        btn_create_staff.Text = "CREATE STAFF"
-        btn_create_staff.UseVisualStyleBackColor = False
+        Label12.AutoSize = True
+        Label12.Font = New Font("Times New Roman", 10.8F)
+        Label12.Location = New Point(930, 26)
+        Label12.Name = "Label12"
+        Label12.Size = New Size(67, 20)
+        Label12.TabIndex = 180
+        Label12.Text = "Position"
         ' 
-        ' AdminCreateStaffModal
+        ' btn_edit_profile
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        btn_edit_profile.BackColor = Color.Green
+        btn_edit_profile.ForeColor = Color.White
+        btn_edit_profile.Location = New Point(1608, 62)
+        btn_edit_profile.Name = "btn_edit_profile"
+        btn_edit_profile.Size = New Size(141, 35)
+        btn_edit_profile.TabIndex = 7
+        btn_edit_profile.Text = "EDIT PROFILE"
+        btn_edit_profile.UseVisualStyleBackColor = False
+        ' 
+        ' StaffEditProfileModal
+        ' 
+        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
         ClientSize = New Size(1902, 940)
         Controls.Add(Panel6)
         Controls.Add(Label9)
         Controls.Add(Panel2)
-        Controls.Add(btn_create_staff)
+        Controls.Add(btn_edit_profile)
         MaximizeBox = False
-        Name = "AdminCreateStaffModal"
+        Name = "StaffEditProfileModal"
         StartPosition = FormStartPosition.CenterScreen
-        Text = "AdminCreateStaffModal"
+        Text = "StaffEditProfileModal"
         WindowState = FormWindowState.Maximized
         Panel2.ResumeLayout(False)
         Panel2.PerformLayout()
@@ -411,10 +363,6 @@ Partial Class AdminCreateStaffModal
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
@@ -424,22 +372,24 @@ Partial Class AdminCreateStaffModal
     Friend WithEvents Label71 As Label
     Friend WithEvents txt_firstname As TextBox
     Friend WithEvents Label70 As Label
-    Friend WithEvents txt_position As TextBox
+    Friend WithEvents txt_email As TextBox
     Friend WithEvents Label69 As Label
     Friend WithEvents dtp_dob As DateTimePicker
     Friend WithEvents Label68 As Label
-    Friend WithEvents txt_username As TextBox
-    Friend WithEvents Label67 As Label
     Friend WithEvents txt_password As TextBox
+    Friend WithEvents Label67 As Label
+    Friend WithEvents txt_last As TextBox
     Friend WithEvents Label66 As Label
-    Friend WithEvents txt_email As TextBox
-    Friend WithEvents Label65 As Label
     Friend WithEvents txt_contact As TextBox
-    Friend WithEvents txt_surname As TextBox
-    Friend WithEvents txt_sex As TextBox
-    Friend WithEvents Label10 As Label
+    Friend WithEvents Label65 As Label
+    Friend WithEvents txt_description As TextBox
+    Friend WithEvents txt_username As TextBox
     Friend WithEvents Panel6 As Panel
-    Friend WithEvents btn_create_staff As Button
+    Friend WithEvents btn_edit_profile As Button
+    Friend WithEvents txt_position As TextBox
     Friend WithEvents txt_address As TextBox
+    Friend WithEvents Label10 As Label
+    Friend WithEvents txt_sex As TextBox
     Friend WithEvents Label11 As Label
+    Friend WithEvents Label12 As Label
 End Class

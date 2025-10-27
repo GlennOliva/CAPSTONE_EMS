@@ -35,7 +35,7 @@ Partial Class Login
         ' 
         ' Panel1
         ' 
-        Panel1.BackColor = Color.Gainsboro
+        Panel1.BackColor = Color.FromArgb(CByte(255), CByte(128), CByte(0))
         Panel1.BackgroundImageLayout = ImageLayout.Center
         Panel1.Controls.Add(btn_login)
         Panel1.Controls.Add(txt_password)
@@ -50,12 +50,13 @@ Partial Class Login
         ' 
         ' btn_login
         ' 
+        btn_login.BackColor = Color.White
         btn_login.Location = New Point(824, 494)
         btn_login.Name = "btn_login"
         btn_login.Size = New Size(244, 40)
         btn_login.TabIndex = 5
         btn_login.Text = "LOGIN"
-        btn_login.UseVisualStyleBackColor = True
+        btn_login.UseVisualStyleBackColor = False
         ' 
         ' txt_password
         ' 
@@ -98,7 +99,7 @@ Partial Class Login
         ' 
         PictureBox1.BackColor = Color.Transparent
         PictureBox1.BackgroundImage = My.Resources.Resources.logo
-        PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
+        PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
         PictureBox1.Location = New Point(710, 18)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(448, 334)
@@ -108,7 +109,7 @@ Partial Class Login
         ' Login
         ' 
         AccessibleRole = AccessibleRole.None
-        AutoScaleDimensions = New SizeF(8.0F, 20.0F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1902, 1033)
         Controls.Add(Panel1)

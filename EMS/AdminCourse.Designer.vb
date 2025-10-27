@@ -47,7 +47,7 @@ Partial Class AdminCourse
         ' 
         ' Panel2
         ' 
-        Panel2.BackColor = Color.Gainsboro
+        Panel2.BackColor = Color.FromArgb(CByte(255), CByte(128), CByte(0))
         Panel2.Controls.Add(Label8)
         Panel2.Controls.Add(Label7)
         Panel2.Controls.Add(Label6)
@@ -227,6 +227,7 @@ Partial Class AdminCourse
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.White
         ClientSize = New Size(1902, 940)
         Controls.Add(Label9)
         Controls.Add(btn_delete_course)
